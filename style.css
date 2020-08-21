@@ -1,15 +1,12 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    /*background-color: aquamarine;*/
     align-items: center;
     min-height: 8vh;
 }
 
 .atube-left {
     display: flex;
-    /*justify-content: space-between;*/
-    /*background-color: blue;*/
     width: 20%;
     
 }
@@ -29,22 +26,14 @@ a {
 }
 
 .atube-left {
- /* background-color: purple;*/
   width: 20%;
   display: flex;
-  /*justify-content: space-between;*/
 }
-
-/*#search {
-  background-color: purple;
-}*/
 
 .atube-right {
   display: flex;
-  /*background-color: purple;*/
   width: 20%;
   justify-content: flex-end;
-  /*padding-right: 50px;*/
   align-items: flex-end;
 }
 
@@ -55,8 +44,6 @@ input[type="text"] {
   width: 600px;
   height: 26px;
   padding-right: 50px;
-  /*background-color: purple;*/
-  /*display: flex;*/
   justify-content: center;
   margin-right: 70px;
 }
@@ -65,7 +52,6 @@ button[type="search-icons"] {
   margin-left: -74.5px;
   height: 31.2px;
   width:75px;
-  /*border-style: solid;*/
 
 }
 
@@ -74,12 +60,8 @@ button[type="search-icons"] {
   
   width: 65%;
   height: 45em;
- /* background-color: grey;*/
   float: left;
   padding-left: 30px;
-  /*box-sizing: border-box;*/
-  /*flex-wrap: wrap;*/
-  
   
 }
 
@@ -89,10 +71,9 @@ button[type="search-icons"] {
 }
 
 .container-right {
-  /*display: flex;*/  
+  
   width: 30%;
   height: 45em;
- /* background-color: green;*/
   float: right;
 }
 
@@ -101,20 +82,25 @@ button[type="search-icons"] {
 .os-contibution {
   display: flex;
   justify-content: space-between;
+  background-color: red;
 }
 
 .subscribers {
   display: flex;
-  /*flex-direction: row;*/
+ 
   justify-content: space-between;
   /*background-color: red;*/
   align-items: center;
   
 }
-/*.avatar {
+.views {
   display: flex;
-  justify-content:  ;
-}*/
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: yellow;
+  width: 60%;
+ 
+}
 
 section .button {
   background-color: red;
@@ -126,7 +112,7 @@ section .button {
 .likes {
   display: flex;
   justify-content: space-around;
- /* background-color: red;*/
+  background-color: blue;
   width: 40%;
   align-items: center;
   
@@ -136,7 +122,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
- /* background-color: orange;*/
+  /*background-color: orange;*/
 }
 
 .video-img-1 {
