@@ -1,39 +1,165 @@
+<!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
     <title>Embedded images and videos</title> 
     <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
-    
-  
+    <!-- Load an icon library -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
     <link rel="stylesheet" type="text/css" href="style.css"/>
   </head> 
+  <style>A {text-decoration: none;}</style>
   <body>
-    <style>A {text-decoration: none;}</style>
     <header>
-      <nav class="nav-bar">
-        <ul class="atube-left"> 
+      <nav class="navbar">
+        <ul style="list-style: none;" class="atube-left"> 
            
             
-          <li><a href="#bar"><i class="fas">&#xf0c9;</i><a></li>
-          
-          <li><a href="#logo"><i id="logo" class="fab fa-youtube"></i><a></li>
-          <li><a href="#"><b>YouTube</b><a></a></li>
-        </ul>     
-        
+              <li><a href="#bar"><i class="fas">&#xf0c9;</i><a></li>
+
+            
+           
+            
+            <li><a href="#logo"><i id="logo" class="fab fa-youtube"></i><a></li>
+            <li><a href="#"><b>YouTube</b><a></a><li>
+            
+        </ul>  
         <form>  
           <input type="text" placeholder="Search">
           <button type="search-icons"><a href="#search-icon"><i class="fab fa-sistrix"></i></a></button>
         </form>
-
         <ul class="atube-right">
-            <li><a href="#video-post"><i class="fas fa-video"></i></a></li>
-            <li><a href="#atube-app"><i class='fas'>&#xf00a;</i></a></li>
-            <li><a href="#notifications"><i class='fas'>&#xf0f3;</i></li>   
-          
-        </ul>   
-      </nav> 
+          <li><a href="#video-post"><i class="fas fa-video"></i></a></li>
+          <li><a href="#atube-app"><i class='fas'>&#xf00a;</i></a></li>
+          <li><a href="#notifications"><i class='fas'>&#xf0f3;</i></li>
+        </ul>    
+      </nav>
     </header>
+ 
+      
+      
+   <main> 
+        <section class="container-left">
+            <section id="video">
+              <iframe class="video" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            
+            <section class="os-contibution">
+                <div>
+                  <p>Contributing to Open Source Part 1: The Easy Way</p>
+                  <a hef="#"><p>25,241 views</p></a>
+                </div>
+                <div class="likes">
+                  <a href="#"><p><i class='fas'>&#xf164;</i> 501</p></a>
+                  <a href="#"><p><i class='fas'>&#xf165;</i>38</p></a>
+                  <a href><p><i class='fas'>&#xf064;</i>SHARE</p></a>
+                </div>
+            </section>
+            <section class="subscribers">
+                <div>
+                  <h4>The Odin Project</h4>
+                  <p>1.01K subscribers</p>  
+                </div>
+                <a href="#"><button class="button">SUBSCRIBE</button></a>
+            </section>
+          
+      
+        </section>
+    
+       <aside class="container-right">
+          <ul>
+              <h4>Up next<h4>
+              <li>
+                <figure class="video-img-1">
+                  <figcaption> 
+                    <img src="images/youtube-logo.png" alt="Onboarding process into Microverse" width= 200px; height=200px;>
+                  </figcaption>
+                  <figcaption>
+                    <h4>Preview of the onboarding process into Microverse</h4>
+                    <p>902 views . 5 days ago</p>
+                  </figcaption>
+                </figure> 
+                
+              </li>
 
+              <li>
+                <figure class="video-img-2">
+                  <figcaption>
+                    <img src="images/youtube-logo.png" alt="Microverse morning session code review" width= 200px; height=200px>
+                  </figcaption>
+                  <figcaption>
+                    <h4>Microvese Othos morning session code review<h4>
+                    <p>703 views . 4 days ago</p> 
+                    </figcaption>
+                </figure> 
+              </li>
+
+              <li>
+                <figure class="video-img-3">
+                  <figcaption>
+                    <img src="images/youtube-logo.png" alt="Microverse morning session with coding partner" width= 200px; height=200px>
+                  </figcaption>
+                  <figcaption>
+                    <h4>Microvese HTML/CSS morning session collaboration with coding partner<h4>
+                    <p>608 views . 3 days ago</p> 
+                    </figcaption>
+                </figure> 
+              </li>
+
+              <li>
+                <figure class="video-img-4">
+                  <figcaption>
+                    <img src="images/youtube-logo.png" alt="Microverse weekly meeting with a mentor" width= 200px; height=200px>
+                  </figcaption>
+                  <figcaption>
+                    <h4>Microvese weekly meeting with a mentor<h4>
+                    <p>983 views . 5 days ago</p> 
+                    </figcaption>
+                </figure> 
+              </li>
+
+              <li>
+                <figure class="video-img-5">
+                  <figcaption>
+                    <img src="images/youtube-logo.png" alt="Microverse afternoon collaboration with coding partner" width= 200px; height=200px>
+                  </figcaption>
+                  <figcaption>
+                    <h4>Preview of Microvese afternoon collaboration with a coding partner<h4>
+                    <p>709 views . 2 days ago</p> 
+                    </figcaption>
+                </figure> 
+              </li>
+
+              <li>
+                <figure class="video-img-6">
+                  <figcaption>
+                    <img src="images/youtube-logo.png" alt="Microverse Othos standup meeting" width= 200px; height=200px>
+                  </figcaption>
+                  <figcaption>
+                    <h4>Preview of Microvese othos standup meeting<h4>
+                    <p>705 views . 1 days ago</p> 
+                    </figcaption>
+                </figure> 
+              </li>
+
+              <li>
+                <figure class="video-img-7">
+                  <figcaption>
+                    <img src="images/youtube-logo.png" alt="Microverse launch and code session" width= 200px; height=200px>
+                  </figcaption>
+                  <figcaption>
+                    <h4>Microverse launch and code session<h4>
+                    <p>607 views . 7 hours ago</p> 
+                  </figcaption>
+                </figure> 
+              </li>
+
+          </ul>
+        
+
+        </aside> 
+    
+    </main>
   </body>
 </html>
