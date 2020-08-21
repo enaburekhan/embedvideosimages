@@ -9,7 +9,7 @@
 .atube-left {
     display: flex;
     /*justify-content: space-between;*/
-    background-color: blue;
+    /*background-color: blue;*/
     width: 20%;
     
 }
@@ -107,10 +107,13 @@ button[type="search-icons"] {
   display: flex;
   /*flex-direction: row;*/
   justify-content: space-between;
+  background-color: red;
+  align-items: center;
   
 }
-/*.subscribe {
-  float: left;
+/*.avatar {
+  display: flex;
+  justify-content:  ;
 }*/
 
 section .button {
