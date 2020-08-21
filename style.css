@@ -1,0 +1,70 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    /*background-color: aquamarine;*/
+    align-items: center;
+    min-height: 8vh;
+}
+
+.atube-left {
+    display: flex;
+    /*justify-content: space-between;*/
+    background-color: blue;
+    width: 20%;
+    
+}
+#logo {
+    color: red; 
+}
+
+
+.fas {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+a {
+  color: black;
+  
+}
+
+.atube-left {
+ /* background-color: purple;*/
+  width: 20%;
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+/*#search {
+  background-color: purple;
+}*/
+
+.atube-right {
+  display: flex;
+  /*background-color: purple;*/
+  width: 20%;
+  justify-content: flex-end;
+  /*padding-right: 50px;*/
+  align-items: flex-end;
+}
+
+
+
+/* source code-stackoverflow, now modified */
+input[type="text"] {
+  width: 600px;
+  height: 26px;
+  padding-right: 50px;
+  /*background-color: purple;*/
+  /*display: flex;*/
+  justify-content: center;
+  margin-right: 70px;
+}
+
+button[type="search-icons"] {
+  margin-left: -74.5px;
+  height: 31.2px;
+  width:75px;
+  /*border-style: solid;*/
+
+}
