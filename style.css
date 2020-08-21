@@ -107,7 +107,7 @@ button[type="search-icons"] {
   display: flex;
   /*flex-direction: row;*/
   justify-content: space-between;
-  background-color: red;
+  /*background-color: red;*/
   align-items: center;
   
 }
