@@ -2,9 +2,10 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+
 **Embedded videos and images on webpage**
-This project is about embedding a video in web page which start playing by clicking on the play button. It also shows the recommended video's thumbnail preview(as images and not as actual videos) and their title and numbers of views.
+
+-This project is about embedding a video in web page which start playing by clicking on the play button. It also shows the    recommended video's thumbnail preview(as images and not as actual videos) and their title and numbers of views.
 
 ![screenshot](./app_screenshot.png)
 
@@ -51,9 +52,9 @@ Running a test is not required.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/enaburekhan)
-- Twitter: [@twitterhandle](https://twitter.com/enaburekhaneric)
-- Linkedin: [linkedin](https://www.linkedin.com/in/eric-enaburekhan-801a28100/)
+- Github: https://github.com/enaburekhan
+- Twitter: https://twitter.com/enaburekhaneric
+- Linkedin: https://www.linkedin.com/in/eric-enaburekhan-801a28100/
 
 👤 **Author2**
 
