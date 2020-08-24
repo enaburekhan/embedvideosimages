@@ -119,7 +119,7 @@ section .button {
   align-items: center;
   
 }
-
+/*removes list item markers*/
 ul {
   list-style-type: none;
   margin: 0;
