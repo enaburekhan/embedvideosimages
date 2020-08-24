@@ -1,7 +1,9 @@
-
+/* removes text under-line */
 A {
   text-decoration: none;
 }
+
+
 .nav-bar {
     display: flex;
     justify-content: space-between;
