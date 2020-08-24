@@ -58,9 +58,9 @@ Running a test is not required.
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: https://github.com/ktyyctrk
+- Twitter: https://twitter.com/ktyyctrk
+- Linkedin: https://www.linkedin.com/in/kyuceturk/
 
 ## 🤝 Contributing
 
@@ -74,7 +74,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Many thanks to Microverse for given my partner I the opportunity learn and grow.
+- Many thanks to Microverse for given my partner and I, the opportunity learn and grow.
 
 
 ## 📝 License
