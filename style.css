@@ -1,3 +1,7 @@
+
+A {
+  text-decoration: none;
+}
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -101,7 +105,7 @@ button[type="search-icons"] {
  
 }
 
-section .button {
+ .button {
   background-color: red;
   color: white;
   font-size: 16px;
@@ -115,7 +119,7 @@ section .button {
   align-items: center;
   
 }
-
+/* removes list-item marker*/
 ul {
   list-style-type: none;
   margin: 0;
