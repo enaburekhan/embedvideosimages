@@ -14,6 +14,7 @@ A {
 .atube-left {
     display: flex;
     width: 20%;
+    align-items: center;
     
 }
 #logo {
@@ -132,6 +133,7 @@ ul {
 .video-img-1 {
   display: flex;
   align-items: center;
+  padding-right: 5px;
 }
 
 .video-img-2 {
@@ -165,3 +167,14 @@ ul {
   align-items: center;
 }
 
+.sidecontenttext {
+  padding-left: 10px;
+}
+.secondarytext {
+color: silver;
+}
+.toplogo {
+height: 30px;
+align-items: center;
+
+}
