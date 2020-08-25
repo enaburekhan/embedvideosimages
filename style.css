@@ -9,6 +9,14 @@ a {
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
+    background-color: white;
+ 
+}
+
+body {
+  background-color: rgba(245, 245, 245, 0.993);
+  margin: 0;
+  padding: 0;
 }
 
 .atube-left {
@@ -69,7 +77,7 @@ button[type="search-icons"] {
   height: 45em;
   float: left;
   padding-left: 30px;
-  
+    
 }
 
 .video {
@@ -79,12 +87,12 @@ button[type="search-icons"] {
 
 .container-right {
   
-  width: 30%;
+  width: 25%;
   height: 45em;
   float: right;
+  padding-right: 100px;
+
 }
-
-
 
 .os-contibution {
   display: flex;
@@ -175,3 +183,22 @@ height: 30px;
 align-items: center;
 
 }
+
+.togglebutton {
+  height: 25px;
+
+
+}
+
+.asidebartop {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(245, 245, 245, 0.993);
+  align-items: center;
+}
+.autoplay {
+  align-items: center;
+  display: flex;
+}
+
+
