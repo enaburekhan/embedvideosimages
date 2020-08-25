@@ -14,6 +14,7 @@ a {
 .atube-left {
     display: flex;
     width: 20%;
+    align-items: center;
     
 }
 #logo {
@@ -96,6 +97,7 @@ button[type="search-icons"] {
  
   justify-content: space-between;
   align-items: center;
+  height:20vh;
   
 }
 .views {
@@ -106,13 +108,33 @@ button[type="search-icons"] {
   width: 60%;
  
 }
+  .avatar {
+    background-color: #73E361;
+    width: 20%;
+    padding: 25px 3px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+  }
 
  .button {
   background-color: red;
   color: white;
   font-size: 16px;
   text-align: center;
+  padding: 8px;
 }
+
+.button a {
+  color: #fff;
+  
+}
+
+
 
 .likes {
   display: flex;
@@ -129,39 +151,27 @@ ul {
   
 }
 
-.video-img-1 {
+.odin {
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
 }
 
-.video-img-2 {
+.container-right .video-img {
   display: flex;
   align-items: center;
+  padding-right: 5px; 
 }
 
 
-.video-img-3 {
-  display: flex;
-  align-items: center;
+.sidecontenttext {
+  padding-left: 10px;
 }
-
-.video-img-4 {
-  display: flex;
-  align-items: center;
+.secondarytext {
+color: silver;
 }
+.toplogo {
+height: 30px;
+align-items: center;
 
-.video-img-5 {
-  display: flex;
-  align-items: center;
 }
-
-.video-img-6 {
-  display: flex;
-  align-items: center;
-}
-
-.video-img-7 {
-  display: flex;
-  align-items: center;
-}
-
