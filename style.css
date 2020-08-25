@@ -91,6 +91,7 @@ button[type="search-icons"] {
   height: 45em;
   float: right;
   padding-right: 100px;
+  box-sizing: border-box;
 
 }
 
@@ -174,6 +175,7 @@ ul {
 
 .sidecontenttext {
   padding-left: 10px;
+  
 }
 .secondarytext {
 color: silver;
