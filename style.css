@@ -1,11 +1,21 @@
+body {
+  background-color: rgba(245, 245, 245, 0.993);
+  margin: 0;
+  padding: 0;
+}
+
 /* removes text under-line */
 a {
   text-decoration: none;
 }
 
 
+.flex {
+  display: flex;
+}
+
 .nav-bar {
-    display: flex;
+
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
@@ -13,14 +23,9 @@ a {
  
 }
 
-body {
-  background-color: rgba(245, 245, 245, 0.993);
-  margin: 0;
-  padding: 0;
-}
 
 .atube-left {
-    display: flex;
+
     width: 20%;
     align-items: center;
     
@@ -40,13 +45,8 @@ a {
   
 }
 
-.atube-left {
-  width: 20%;
-  display: flex;
-}
 
 .atube-right {
-  display: flex;
   width: 20%;
   justify-content: flex-end;
   align-items: flex-end;
@@ -55,6 +55,7 @@ a {
 
 
 /* source code-stackoverflow, now modified */
+
 input[type="text"] {
   width: 600px;
   height: 26px;
@@ -96,21 +97,20 @@ button[type="search-icons"] {
 }
 
 .os-contibution {
-  display: flex;
+
   justify-content: space-between;
   
 }
 
 .subscribers {
-  display: flex;
- 
+
   justify-content: space-between;
   align-items: center;
   height:20vh;
   
 }
 .views {
-  display: flex;
+  
   flex-direction: column;
   justify-content: flex-end;
   
@@ -143,15 +143,14 @@ button[type="search-icons"] {
   
 }
 
-
-
 .likes {
-  display: flex;
+ 
   justify-content: space-around;
   width: 40%;
   align-items: center;
   
 }
+
 /* removes list-item marker*/
 ul {
   list-style-type: none;
@@ -161,13 +160,13 @@ ul {
 }
 
 .odin {
-  display: flex;
+
   justify-content: flex-start;
   width: 50%;
 }
 
 .container-right .video-img {
-  display: flex;
+ 
   align-items: center;
   padding-right: 5px; 
 }
@@ -193,14 +192,14 @@ align-items: center;
 }
 
 .asidebartop {
-  display: flex;
+
   justify-content: space-between;
   background-color: rgba(245, 245, 245, 0.993);
   align-items: center;
 }
+
 .autoplay {
   align-items: center;
-  display: flex;
 }
 
 
