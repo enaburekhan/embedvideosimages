@@ -64,7 +64,7 @@ input[type="text"] {
   margin-right: 70px;
 }
 
-button[type="search-icons"] {
+button[type="button"] {
   margin-left: -74.5px;
   height: 31.2px;
   width:75px;
@@ -84,6 +84,7 @@ button[type="search-icons"] {
 .video {
   width: 980px;
   height: 540px;
+  border: "0"
 }
 
 .container-right {
