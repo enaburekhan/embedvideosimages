@@ -88,7 +88,7 @@ button[type="search-icons"] {
 
 .container-right {
   
-  width: 25%;
+  width: 32%;
   height: 45em;
   float: right;
   padding-right: 100px;
@@ -106,7 +106,8 @@ button[type="search-icons"] {
 
   justify-content: space-between;
   align-items: center;
-  height:20vh;
+  height:100px;
+  
   
 }
 .views {
@@ -117,20 +118,19 @@ button[type="search-icons"] {
  
 }
   .avatar {
-    background-color: #73E361;
-    width: 20%;
-    padding: 25px 3px;
+    background-color: #5db450;
+    padding: 5px;
+    width: 60px;
     border-radius: 50%;
-    font-size: 25px;
+    font-size: 300%;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
-
   }
 
  .button {
-  background-color: red;
+  background-color: rgb(211, 5, 5);
   color: white;
   font-size: 16px;
   text-align: center;
@@ -162,10 +162,12 @@ ul {
 
   justify-content: flex-start;
   width: 50%;
+  align-items: center;
+  height: 100px;
 }
 
 .container-right .video-img {
- 
+  height: 90px;
   align-items: center;
   padding-right: 5px; 
 }
@@ -173,11 +175,14 @@ ul {
 
 .sidecontenttext {
   padding-left: 10px;
+  width: 90%;
   
 }
 .secondarytext {
-color: silver;
+color: rgb(160, 159, 159);
 }
+
+
 .toplogo {
 height: 30px;
 align-items: center;
@@ -191,7 +196,7 @@ align-items: center;
 }
 
 .asidebartop {
-
+  width: 90%;
   justify-content: space-between;
   background-color: rgba(245, 245, 245, 0.993);
   align-items: center;
@@ -201,4 +206,13 @@ align-items: center;
   align-items: center;
 }
 
+.leftpadding {
+  padding-left: 15px;
+}
 
+
+.videoexplanation {
+  padding-left: 70px;
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+}
