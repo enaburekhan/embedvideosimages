@@ -82,6 +82,7 @@ button[type="button"] {
   float: right;
   padding-right: 30px;
   box-sizing: border-box;
+ /* background-color: darkblue;*/
 }
 
 .os-contibution {
@@ -145,9 +146,11 @@ ul {
 }
 
 .container-right .video-img {
-  height: 90px;
+  height: 100px;
   align-items: center;
   padding-right: 5px; 
+  background-color: darkorchid;
+  justify-content: flex-start ;
 }
 
 .sidecontenttext {
