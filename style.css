@@ -15,20 +15,19 @@ a {
 }
 
 .nav-bar {
-
-    justify-content: space-between;
-    align-items: center;
-    min-height: 8vh;
-    background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  background-color: white;
 }
 
 .atube-left {
-    width: 20%;
-    align-items: center;   
+  width: 20%;
+  align-items: center;   
 }
 
 #logo {
-    color: red; 
+  color: red; 
 }
 
 
@@ -67,23 +66,23 @@ button[type="button"] {
   width: 60%;
   height: 45em;
   float: left;
-  padding-left: 30px;    
+  padding-left: 30px;
+  padding-top: 30px;    
 }
 
 .video {
-  width: 980px;
+  width: 940px;
   height: 540px;
   border: "0"
 }
 
 .container-right {
-  /* min-width:400px; */
+ 
   height: 45em;
   float: left;
   padding-right: 30px;
   box-sizing: border-box;
   align-content: left;
-
 }
 
 .os-contibution {
