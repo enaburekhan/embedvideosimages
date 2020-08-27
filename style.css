@@ -20,12 +20,9 @@ a {
     align-items: center;
     min-height: 8vh;
     background-color: white;
- 
 }
 
-
 .atube-left {
-
     width: 20%;
     align-items: center;   
 }
@@ -41,18 +38,14 @@ a {
 }
 
 a {
-  color: black;
-  
+  color: black; 
 }
-
 
 .atube-right {
   width: 20%;
   justify-content: flex-end;
   align-items: flex-end;
 }
-
-
 
 /* source code-stackoverflow, now modified */
 
@@ -68,17 +61,13 @@ button[type="button"] {
   margin-left: -74.5px;
   height: 31.2px;
   width:75px;
-
 }
 
-
-.container-left {
-  
+.container-left { 
   width: 65%;
   height: 45em;
   float: left;
-  padding-left: 30px;
-    
+  padding-left: 30px;    
 }
 
 .video {
@@ -88,36 +77,29 @@ button[type="button"] {
 }
 
 .container-right {
-  
   width: 32%;
   height: 45em;
   float: right;
-  padding-right: 100px;
+  padding-right: 30px;
   box-sizing: border-box;
-
 }
 
 .os-contibution {
-
-  justify-content: space-between;
-  
+  justify-content: space-between; 
 }
 
 .subscribers {
-
   justify-content: space-between;
   align-items: center;
-  height:100px;
-  
-  
+  height:100px;   
 }
+
 .views {
-  
   flex-direction: column;
   justify-content: flex-end;
   width: 60%;
- 
 }
+
   .avatar {
     background-color: #5db450;
     padding: 5px;
@@ -127,7 +109,6 @@ button[type="button"] {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
   }
 
  .button {
@@ -144,23 +125,19 @@ button[type="button"] {
 }
 
 .likes {
- 
   justify-content: space-around;
   width: 40%;
-  align-items: center;
-  
+  align-items: center; 
 }
 
 /* removes list-item marker*/
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  
+  padding: 0; 
 }
 
 .odin {
-
   justify-content: flex-start;
   width: 50%;
   align-items: center;
@@ -173,34 +150,30 @@ ul {
   padding-right: 5px; 
 }
 
-
 .sidecontenttext {
   padding-left: 10px;
-  width: 90%;
-  
+  width: 90%; 
 }
+
 .secondarytext {
 color: rgb(160, 159, 159);
 }
 
-
 .toplogo {
 height: 30px;
 align-items: center;
-
 }
 
 .togglebutton {
   height: 25px;
-
-
 }
 
 .asidebartop {
-  width: 90%;
+  width: 80%;
   justify-content: space-between;
   background-color: rgba(245, 245, 245, 0.993);
   align-items: center;
+  padding-left: 40px;
 }
 
 .autoplay {
@@ -210,7 +183,6 @@ align-items: center;
 .leftpadding {
   padding-left: 15px;
 }
-
 
 .videoexplanation {
   padding-left: 70px;
