@@ -22,8 +22,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-https://rawcdn.githack.com/enaburekhan/embedvideosimages/d438a8db1a4fa7294cf8188a5113dfd2fe44f3df/index.html 
-
+https://raw.githack.com/enaburekhan/embedvideosimages/pull/2
 
 ## Getting Started
 
