@@ -64,7 +64,7 @@ button[type="button"] {
 }
 
 .container-left { 
-  width: 65%;
+  width: 60%;
   height: 45em;
   float: left;
   padding-left: 30px;    
@@ -77,12 +77,13 @@ button[type="button"] {
 }
 
 .container-right {
-  width: 32%;
+  /* min-width:400px; */
   height: 45em;
-  float: right;
+  float: left;
   padding-right: 30px;
   box-sizing: border-box;
- /* background-color: darkblue;*/
+  align-content: left;
+
 }
 
 .os-contibution {
@@ -149,8 +150,7 @@ ul {
   height: 100px;
   align-items: center;
   padding-right: 5px; 
-  background-color: darkorchid;
-  justify-content: flex-start ;
+  padding-left: 20px;
 }
 
 .sidecontenttext {
@@ -176,7 +176,7 @@ align-items: center;
   justify-content: space-between;
   background-color: rgba(245, 245, 245, 0.993);
   align-items: center;
-  padding-left: 40px;
+  padding-left: 60px;
 }
 
 .autoplay {
