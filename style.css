@@ -1,0 +1,193 @@
+body {
+  background-color: rgba(245, 245, 245, 0.993);
+  margin: 0;
+  padding: 0;
+}
+
+/* removes text under-line */
+a {
+  text-decoration: none;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.nav-bar {
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  background-color: white;
+}
+
+.atube-left {
+  width: 20%;
+  align-items: center;   
+}
+
+#logo {
+  color: red; 
+}
+
+
+.fas {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+a {
+  color: black; 
+}
+
+.atube-right {
+  width: 20%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+/* source code-stackoverflow, now modified */
+
+input[type="text"] {
+  width: 600px;
+  height: 26px;
+  padding-right: 50px;
+  justify-content: center;
+  margin-right: 70px;
+}
+
+button[type="button"] {
+  margin-left: -74.5px;
+  height: 31.2px;
+  width:75px;
+}
+
+.container-left { 
+  width: 60%;
+  height: 45em;
+  float: left;
+  padding-left: 30px;
+  padding-top: 30px;    
+}
+
+.video {
+  width: 940px;
+  height: 540px;
+  border: "0"
+}
+
+.container-right {
+ 
+  height: 45em;
+  float: left;
+  padding-right: 30px;
+  box-sizing: border-box;
+  align-content: left;
+}
+
+.os-contibution {
+  justify-content: space-between; 
+}
+
+.subscribers {
+  justify-content: space-between;
+  align-items: center;
+  height:100px;   
+}
+
+.views {
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+  .avatar {
+    background-color: #5db450;
+    padding: 5px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 300%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+ .button {
+  background-color: rgb(211, 5, 5);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 8px;
+}
+
+.button a {
+  color: #fff;
+  
+}
+
+.likes {
+  justify-content: space-around;
+  width: 40%;
+  align-items: center; 
+}
+
+/* removes list-item marker*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+
+.odin {
+  justify-content: flex-start;
+  width: 50%;
+  align-items: center;
+  height: 100px;
+}
+
+.container-right .video-img {
+  height: 100px;
+  align-items: center;
+  padding-right: 5px; 
+  padding-left: 20px;
+}
+
+.sidecontenttext {
+  padding-left: 10px;
+  width: 90%; 
+}
+
+.secondarytext {
+color: rgb(160, 159, 159);
+}
+
+.toplogo {
+height: 30px;
+align-items: center;
+}
+
+.togglebutton {
+  height: 25px;
+}
+
+.asidebartop {
+  width: 80%;
+  justify-content: space-between;
+  background-color: rgba(245, 245, 245, 0.993);
+  align-items: center;
+  padding-left: 60px;
+}
+
+.autoplay {
+  align-items: center;
+}
+
+.leftpadding {
+  padding-left: 15px;
+}
+
+.videoexplanation {
+  padding-left: 70px;
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+}
